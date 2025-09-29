@@ -13,11 +13,11 @@ h1 {
 .flex-container {
   display: flex; /* Enables flexbox */
   flex-direction: row; /* row | column */
-  flex-wrap: wrap; /* wrap | nowrap */
-  justify-content: center; /* flex-start | center | space-between | space-around | space-evenly */
-  align-items: center; /* flex-start | center | flex-end | stretch */
-  gap: 15px; /* space between items */
-  background: #fff;
+  /* flex-wrap: wrap; /* wrap | nowrap */
+  justify-content: center; /*flex-start | center | space-between | space-around | space-evenly */
+  align-items: center; /*flex-start | center | flex-end | stretch */
+  gap: 15px; /*space between items */
+  background: #ffe;
   padding: 20px;
   border: 2px solid #333;
   border-radius: 10px;
@@ -32,5 +32,5 @@ h1 {
   text-align: center;
   padding: 30px;
   border-radius: 8px;
-  flex: 1 1 100px; /* grow shrink basis */
+  flex: 1 1 100px; /*grow shrink basis */
 }
