@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex; /* Enables flexbox */
+  flex-direction: row; /* row | column */
+  flex-wrap: wrap; /* wrap | nowrap */
+  justify-content: center; /* flex-start | center | space-between | space-around | space-evenly */
+  align-items: center; /* flex-start | center | flex-end | stretch */
+  gap: 15px; /* space between items */
+  background: #fff;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  min-height: 200px;
+}
+
+.box {
+  background: #6c5ce7;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+  border-radius: 8px;
+  flex: 1 1 100px; /* grow shrink basis */
+}
