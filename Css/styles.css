@@ -38,9 +38,19 @@ h1 {
 
 /* Grid Practice */
 .container {
+  background-color: dodgerblue;
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: dodgerblue;
-  padding: 10px;
-  border-radius: 10px;
+  /*justify-content: center;  Horizontal center */
+  /*align-items: center;  Vertical center */
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Take full screen */
+}
+
+.box-1 {
+  grid-column: 2; /* place in the 2nd column */
+  grid-row: 2; /* place in the 2nd row */
+  justify-self: center; /* center horizontally */
+  align-self: center; /* center vertically */
 }
